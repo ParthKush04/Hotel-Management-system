@@ -24,3 +24,21 @@ code {
   margin-left: auto;
   gap : 20px;
 }
+.smallimg{
+  height: 200px;
+  width:100% !important;
+  border-radius: 5px;
+}
+h1{
+  font-size: 20px;
+}
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px !important;
+}
+.bigimg{
+  height : 400px;
+  border-radius: 10px;
+}
