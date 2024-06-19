@@ -8,7 +8,7 @@ function Loader() {
         <RingLoader
           color={'#000'}
           loading={loading}
-          size={80}
+          size={50}
           aria-label="Loading Spinner"
           data-testid="loader"
         />
