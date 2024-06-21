@@ -23,7 +23,7 @@ function Navbar() {
                     <i class="fa-solid fa-user"></i>
                     </button>
                     <ul class="dropdown-menu ">
-                      <li><a class="dropdown-item" href="#">Bookings</a></li>
+                      <li><a class="dropdown-item" href="/bookings">Bookings</a></li>
                       <li><a class="dropdown-item" href="#" onClick={logout}>Logout</a></li>
                     </ul>
                   </div>
