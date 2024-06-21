@@ -6,6 +6,7 @@ import Homescreen from './screens/Homescreen';
 import { BrowserRouter,Route,Link,Routes } from 'react-router-dom';
 import Registerscreen from './screens/Registerscreen'
 import Loginscreen from './screens/Loginscreen';
+import Profilescreen from './screens/Profilescreen';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path = "/book/:roomid/:fromdate/:todate" element = {<Bookingscreen/>}/>
       <Route path = "/register" element = {<Registerscreen/>}/>
       <Route path = "/login" element = {<Loginscreen/>}/>
+      <Route path = "/profile" element ={<Profilescreen/>}/>
       
       </Routes>
       </BrowserRouter>
